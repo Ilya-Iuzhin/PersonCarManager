@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_person.sql
+      author: ilya.iuzhin
+      sqlFile:
+        path: dictionary/create_person.sql
+        splitStatements: false
+        relativeToChangelogFile: true
+  - changeSet:
+      id: create_car.sql
+      author: ilya.iuzhin
+      sqlFile:
+        path: dictionary/create_car.sql
+        splitStatements: false
+        relativeToChangelogFile: true
+
+
